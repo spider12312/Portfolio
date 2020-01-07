@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@himocame" />
+    <meta property="og:url" content="http://himocame.com/portfolio/" />
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:description" content="もえかのポートフォリオ" />
+    <meta property="og:image" content="https://himocame.com/portfolio/img/06.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700|Noto+Sans+JP:400,700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iziModal.css">
+    <!-- JS -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/skill.bars.jquery.js"></script>
+    <script src="js/iziModal.js"></script>
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <div id="contents">
+        <section class="mv">
+            <h1 class="mv__title">PORTFOLIO</h1>
+        </section>
+        <section class="profile">
+            <h2 class="profile__title">PROFILE</h2>
+            <div class="profile__container">
+                <div class="profile__img">
+                    <img src="img/profile.png">
+                </div>
+                <div class="profile__group">
+                    <div class="profile__unit">
+                        <div class="profile__label">名前</div>
+                        <div class="profile__item">まさや</div>
+                    </div>
+                    <div class="profile__unit">
+                        <div class="profile__label">年齢</div>
+                        <div class="profile__item">19歳</div>
+                    </div>
+                    <div class="profile__unit">
+                        <div class="profile__label">職業</div>
+                        <div class="profile__item">大学生</div>
+                    </div>
+                    <div class="profile__unit">
+                        <div class="profile__label">居住地</div>
+                        <div class="profile__item">福井県</div>
+                    </div>
+                    <div class="profile__unit">
+                        <div class="profile__label">趣味</div>
+                        <div class="profile__item">読書</div>
+                    </div>
+                    <div class="profile__text">
+                        私は、現在サイバー大学(通信制大学)に通いながら、ラーメン屋さんのバイト、フリーランスとして企業のサイトを作らせて頂いております。<br>大学でHTMLを学び楽しかったのでそのまま独学でスキルアップしてきました。そうしていくうちに、自分のスキルを使い社会に貢献したいと思いました。知り合いの企業やクラウドソーシングなどでどんどん作りました。
+                        <br><br>就職しようと思いました。私は、すごく勉強が好きなので新しい技術などもすぐに習得します。また、コミュニケーションがとても好きなので、フリーランスの時には、クライアントとのコミュニケーションをとても大切にしていました。<br><br>コンピュータ言語、コミュニケーション能力、スキル習得、Webの構造の理解などで、企業に貢献します。必ず採用して良かったと言ってもらえるよう頑張ります。
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="point">
+            <h2 class="point__title">POINT</h2>
+            <div class="point__container">
+                <div class="point__item">
+                    <div class="point__icon"><i class="fas fa-heart"></i></div>
+                    <h3 class="point__heading">仕事が好き</h3>
+                    <div class="point__text">
+                        働くことは自己表現の一つだと考えています。ライフスタイルの変化があっても、生涯働きたいです。</div>
+                </div>
+                <div class="point__item">
+                    <div class="point__icon"><i class="fas fa-grin-squint"></i></div>
+                    <h3 class="point__heading">ポジティブ</h3>
+                    <div class="point__text">
+
+                        前向きな思考で、笑顔で明るくいるよう心がけています。メンタル面は安定しています。</div>
+                </div>
+                <div class="point__item">
+                    <div class="point__icon"><i class="fas fa-level-up-alt"></i></div>
+                    <h3 class="point__heading">向上心</h3>
+                    <div class="point__text">
+                        常に学び、より良い人間でありたいと思っています。そのための努力は惜しみません。</div>
+                </div>
+            </div>
+        </section>
+        <section class="skill">
+            <h2 class="skill__title">SKILL</h2>
+
+            <div class="skill__container">
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="90">
+                        <div class="skillbar-title">HTML</div>
+                        <div class="skillbar-bar skillbar-bar--html"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">ぱっと見て大まかな構成が分かります</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="80">
+                        <div class="skillbar-title">CSS</div>
+                        <div class="skillbar-bar skillbar-bar--css"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">BEM設計が好きです</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="80">
+                        <div class="skillbar-title">Sass</div>
+                        <div class="skillbar-bar skillbar-bar--sass"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">ブロックごとにファイルを分けて管理しています</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="30">
+                        <div class="skillbar-title">Photoshop</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">簡単な画像加工ができます</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="70">
+                        <div class="skillbar-title">JavaScript</div>
+                        <div class="skillbar-bar skillbar-bar--js"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">簡単な動きをつけることができます</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="80">
+                        <div class="skillbar-title">jQuery</div>
+                        <div class="skillbar-bar skillbar-bar--jq"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">フルスクラッチや、プラグインが使えます</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="30">
+                        <div class="skillbar-title">PHP</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">ログイン機能、問い合わせフォームなど作れます</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="30">
+                        <div class="skillbar-title">WordPress</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">自作テーマ開発や、運用などできます</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="90">
+                        <div class="skillbar-title">XD</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">スマホ、PCなどのデザインを作れます</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="90">
+                        <div class="skillbar-title">デザイン</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">色彩理論や、フォントなど分かります</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="90">
+                        <div class="skillbar-title">Git/Github</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">Gitを用いての開発経験あります</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="90">
+                        <div class="skillbar-title">SQL MySql</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">簡単な掲示板、管理画面作りました</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="30">
+                        <div class="skillbar-title">Perl</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">ファイル操作を用い掲示板を作りました</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="30">
+                        <div class="skillbar-title">Command Line</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">大学で基本コマンドなどを勉強しました</div>
+                </div>
+                <div class="skill__bar">
+                    <div class="skillbar" data-percent="30">
+                        <div class="skillbar-title">Java</div>
+                        <div class="skillbar-bar skillbar-bar--php"></div>
+                        <div class="skill-bar-percent"></div>
+                    </div>
+                    <div class="skill__cmt">簡単なデスクトップアプリを作りました</div>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <h2 class="works__title">WORKS</h2>
+            <div class="works__container">
+                <div class="works__items">
+                    <div class="works__item"><img src="img/01.jpg" data-izimodal-open=".modal_01" alt=""></div>
+                    <div class="works__item"><img src="img/02.jpg" data-izimodal-open=".modal_02" alt=""></div>
+                </div>
+                <div class="works__items">
+                    <div class="works__item"><img src="img/03.jpg" data-izimodal-open=".modal_03" alt=""></div>
+                    <div class="works__item"><img src="img/04.jpg" data-izimodal-open=".modal_04" alt=""></div>
+                </div>
+                <div class="works__items">
+                    <div class="works__item"><img src="img/05.jpg" data-izimodal-open=".modal_05" alt=""></div>
+                    <div class="works__item"><img src="img/06.jpg" data-izimodal-open=".modal_06" alt=""></div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <h2 class="footer__title">FOLLOW ME</h2>
+                <div class="footer__icon">
+                    <a href="https://twitter.com/himocame" target="_blank"><i class="fab fa-twitter"></i></a>
+
+                    <a href="https://himocame.com/" target="_blank"><i class="fas fa-desktop"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="iziModal_group modal_01" data-izimodal-title="EGGKIDs様" data-izimodal-subtitle="HTML/CSS/JavaScript">
+        <div class="modal__container">
+            <div class="modal__image">
+                <a href="contents/01-counter/">
+                    <img class="modal__img" src="img/01.jpg"></a>
+            </div>
+            <div class="modal__info">
+                <div class="modal__item">
+                    <div class="modal__label">制作時間</div>
+                    <div class="modal__text">１日／２時間</div>
+                </div>
+                <div class="modal__item">
+                    <div class="modal__label">概要</div>
+                    <div class="modal__text">
+                        JavaScriptの練習のため、文字数カウンターを作成しました。<br>リアルタイムで文字数がカウントされ、指定用語が一定数以上入力されているか○×で判定されます。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="iziModal_group modal_02" data-izimodal-title="かさぜん様" data-izimodal-subtitle="HTML/CSS/jQuery">
+        <div class="modal__container">
+            <div class="modal__image">
+                <a href="contents/02-girly/">
+                    <img class="modal__img" src="img/02.jpg"></a>
+            </div>
+            <div class="modal__info">
+                <div class="modal__item">
+                    <div class="modal__label">制作時間</div>
+                    <div class="modal__text">２日（合計10時間）</div>
+                </div>
+                <div class="modal__item">
+                    <div class="modal__label">概要</div>
+                    <div class="modal__text">
+                        「女性らしさ」をコンセプトに作成しました。<br>画像やトーンマナーに気をつけ、統一性のあるデザインであることを心がけました。また、ほんの少しですがjQueryで動きをつけています。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="iziModal_group modal_03" data-izimodal-title="ポートフォリオ（仮）" data-izimodal-subtitle="HTML/CSS">
+        <div class="modal__container">
+            <div class="modal__image">
+                <a href="contents/03-monotone/">
+                    <img class="modal__img" src="img/03.jpg"></a>
+            </div>
+            <div class="modal__info">
+                <div class="modal__item">
+                    <div class="modal__label">制作時間</div>
+                    <div class="modal__text">２日（合計５時間）</div>
+                </div>
+                <div class="modal__item">
+                    <div class="modal__label">概要</div>
+                    <div class="modal__text">
+                        Twitterでアドバイスを受け、これまでアウトプットしたものを公開するページを作成しました。<br>画像を使わずCSSだけでどこまで表現できるかに挑戦しました。また、制作物が目立つようモノトーンで、かつシンプルになるよう気をつけました。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="iziModal_group modal_04" data-izimodal-title="仮想WEBサービス" data-izimodal-subtitle="HTML/CSS/Sass/PHP">
+        <div class="modal__container">
+            <div class="modal__image">
+                <img class="modal__img" src="img/04.jpg">
+            </div>
+            <div class="modal__info">
+                <div class="modal__item">
+                    <div class="modal__label">制作時間</div>
+                    <div class="modal__text">14日（合計42時間）</div>
+                </div>
+                <div class="modal__item">
+                    <div class="modal__label">機能</div>
+                    <div class="modal__text">ユーザー登録、退会、ログイン、ログアウト、カテゴリ登録、勉強時間登録</div>
+                </div>
+                <div class="modal__item">
+                    <div class="modal__label">概要</div>
+                    <div class="modal__text">
+                        勉強時間を記録するWEBサービスを作成しました<br>初めてPHPに触れたため時間はかかりましたが、DBへの接続やテーブル結合などを身に付けることができました。<br>また、SassとBEM命名規則を取り入れ、保守性の高いコーディングを模索しながら作成しました。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="iziModal_group modal_05" data-izimodal-title="あめあつめ2019" data-izimodal-subtitle="HTML/CSS/Sass/PHP/Twitter連携">
+        <div class="modal__container">
+            <div class="modal__image">
+                <a href="contents/04-object/">
+                    <img class="modal__img" src="img/05.jpg"></a>
+            </div>
+            <div class="modal__info">
+                <div class="modal__item">
+                    <div class="modal__label">制作時間</div>
+                    <div class="modal__text">４日（合計13時間）</div>
+                </div>
+                <div class="modal__item">
+                    <div class="modal__label">概要</div>
+                    <div class="modal__text">
+                        攻撃、逃げる、リスタート、３つの行動ができる簡易的なブラウザゲームです。「取り組み開始から１週間以内に公開する」ことを目標とし、無事クリアできました。<br>単純な分ユーザーを飽きさせないようにする必要があると思い、モンスターのセリフを３種類ランダムで表示するようにした他、デザインにもこだわりました。<br>
+                        また、Twitterと連携することによって競争できる要素を取り入れました。多くの方に遊んでいただき、反響も大きかったです。<br>
+                        <a href="https://twitter.com/hashtag/%E3%81%82%E3%82%81%E3%81%82%E3%81%A4%E3%82%812019">#あめあつめ2019</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="iziModal_group modal_06" data-izimodal-title="ポートフォリオ" data-izimodal-subtitle="HTML/CSS/Sass/jQuery/PhotoShop">
+        <div class="modal__container">
+            <div>
+                <a href="#">
+                    <img class="modal__img" src="img/06.jpg"></a>
+            </div>
+            <div class="modal__info">
+                <div class="modal__item">
+                    <div class="modal__label">制作時間</div>
+                    <div class="modal__text">３日（合計10時間）</div>
+                </div>
+                <div class="modal__item">
+                    <div class="modal__label">概要</div>
+                    <div class="modal__text">
+                        転職活動のため、ポートフォリオを作成しました。<br>「清潔感・女性らしさ」をテーマに、デザイン性だけではなく視認性が高くなるよう、PhotoShopでいくつかパターンを作って調整しました。そこからデザインカンプを作成し、調整しやすいよう全ての数値を８の倍数にしています。<br>
+                        コーディング時はHTML構造とCSS構造を分離することを意識しました。<br>
+                        jQueryでリッチな動きをつけると同時に、ページの読み込み速度やブラウザ間での差異もチェックしました。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+
+
+</body></html>

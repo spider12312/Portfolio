@@ -534,15 +534,15 @@ body {
 }
 
 .profile__title {
-  margin-bottom: 80px;
+  
   text-align: center;
   font-size: 4.8rem;
   letter-spacing: 2px;
+  display:inline-block;
 }
 
 @media (max-width: 768px) {
   .profile__title {
-    margin-bottom: 40px;
     font-size: 2rem;
     letter-spacing: 1px;
   }
@@ -660,7 +660,6 @@ body {
 }
 
 .point__title {
-  margin-bottom: 80px;
   text-align: center;
   font-size: 4.8rem;
   letter-spacing: 2px;
@@ -668,7 +667,6 @@ body {
 
 @media (max-width: 768px) {
   .point__title {
-    margin-bottom: 40px;
     font-size: 2rem;
     letter-spacing: 1px;
   }

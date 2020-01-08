@@ -1,0 +1,14 @@
+#typing {
+    
+    &:after {
+      content: '';
+      border-right: 1px solid;
+      animation: flashing 0.4s linear infinite;
+    }
+  }
+  
+  @keyframes flashing {
+    0% {
+      opacity: 0;
+    }
+  }

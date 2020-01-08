@@ -1,0 +1,19 @@
+#typing:after {
+  content: '';
+  border-right: 1px solid;
+  -webkit-animation: flashing 0.4s linear infinite;
+          animation: flashing 0.4s linear infinite;
+}
+
+@-webkit-keyframes flashing {
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes flashing {
+  0% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=anime.css.map */

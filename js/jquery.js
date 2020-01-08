@@ -9,7 +9,7 @@ $(function () {
     navigateCaption: false,
 
     //header
-    headerColor: 'linear-gradient(to right, #add6ff, #ffadd6)',
+    headerColor: 'linear-gradient(to right, hsl(210, 100%, 62%), hsl(330, 100%, 84%))',
     iconColor: '#535353',
   });
 
@@ -22,3 +22,14 @@ $(function () {
   })
 
 })
+
+// ポートフォリオ
+const typing = (element, sentence) => {
+	[...sentence].forEach((character, index) => {
+  	setTimeout(() => {
+    	document.querySelector(element).textContent += character;
+    }, 160 * ++index);
+  });
+}
+
+typing('#typing', 'PORTFOLIO');

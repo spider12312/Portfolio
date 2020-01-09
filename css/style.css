@@ -822,7 +822,6 @@ body {
 }
 
 .skill__title {
-    margin-bottom: 80px;
     text-align: center;
     font-size: 4.8rem;
     letter-spacing: 2px;
@@ -830,7 +829,6 @@ body {
 
 @media (max-width: 768px) {
     .skill__title {
-        margin-bottom: 40px;
         font-size: 2rem;
         letter-spacing: 1px;
     }
@@ -879,7 +877,6 @@ body {
 }
 
 .works__title {
-    margin-bottom: 80px;
     text-align: center;
     font-size: 4.8rem;
     letter-spacing: 2px;
@@ -887,7 +884,6 @@ body {
 
 @media (max-width: 768px) {
     .works__title {
-        margin-bottom: 40px;
         font-size: 2rem;
         letter-spacing: 1px;
     }

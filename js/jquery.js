@@ -26,6 +26,7 @@ $(function () {
 
 
 
+
 // ポートフォリオ(ファーストビュー)
 const typing = (element, sentence) => {
 	[...sentence].forEach((character, index) => {
@@ -45,6 +46,8 @@ const target = document.querySelector('.text');
 // 対象となる要素
 const target1 = document.querySelector('.text1');
 // 画面下部からの閾値
+const target2 = document.querySelector('.text2');
+const target3 = document.querySelector('.text3');
 const threshold = 200;
 
 window.addEventListener('scroll', () => {
@@ -53,5 +56,11 @@ window.addEventListener('scroll', () => {
     }
     if (window.innerHeight > target1.getBoundingClientRect().top + threshold) {
         target1.classList.remove('loading1');
+    }
+    if (window.innerHeight > target2.getBoundingClientRect().top + threshold) {
+        target2.classList.remove('loading2');
+    }
+    if (window.innerHeight > target3.getBoundingClientRect().top + threshold) {
+        target3.classList.remove('loading3');
     }
 });

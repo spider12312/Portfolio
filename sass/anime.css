@@ -1,3 +1,5 @@
+
+/*タイピング*/
 #typing:after {
   content: '';
   border-right: 1px solid;
@@ -145,6 +147,54 @@
 }
 
 .text1:not(.loading1)::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: #3399ff;
+  -webkit-animation-name: in, out;
+          animation-name: in, out;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-delay: 0s, .5s;
+          animation-delay: 0s, .5s;
+  -webkit-animation-timing-function: cubic-bezier(0.75, 0, 0.2, 1);
+          animation-timing-function: cubic-bezier(0.75, 0, 0.2, 1);
+  -webkit-animation-fill-mode: backwards, forwards;
+          animation-fill-mode: backwards, forwards;
+}
+.text2 {
+  display: inline-block;
+  position: relative;
+}
+
+.text2:not(.loading2)::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: #3399ff;
+  -webkit-animation-name: in, out;
+          animation-name: in, out;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-delay: 0s, .5s;
+          animation-delay: 0s, .5s;
+  -webkit-animation-timing-function: cubic-bezier(0.75, 0, 0.2, 1);
+          animation-timing-function: cubic-bezier(0.75, 0, 0.2, 1);
+  -webkit-animation-fill-mode: backwards, forwards;
+          animation-fill-mode: backwards, forwards;
+}
+.text3 {
+  display: inline-block;
+  position: relative;
+}
+
+.text3:not(.loading3)::before {
   position: absolute;
   top: 0;
   left: 0;
